@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LAB ACTIVITY 3</title>
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+#wrapper-div {
+    width: 80%;
+    margin: auto;
+}
+#main1-div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#logo-div {
+    width: 50%;
+    min-height: 50px;
+    background-color: rgb(218, 41, 28);
+    color: rgb(255, 199, 44);
+    text-font-weight: bold;
+    font-family: Helvetica;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 50px;
+    float: left;
+}
+#logo-div img {
+    max-height: 100%;
+    width: auto;
+    vertical-align: middle;
+}
+#nav-div {
+    width: 50%;
+    min-height: 50px;
+    background-color: rgb(218, 41, 28);
+    text-align: center;
+    float: left;
+    line-height: 50px;
+}
+#nav-div a {
+    margin: 0 10px;
+    text-decoration: none;
+    text-font-weight: bold;
+    color: rgb(255, 199, 44); /* RGB Yellow */
+}
+#headerbanner-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(218, 41, 28);
+    text-align: center;
+    margin-bottom: 10px;
+}
+#headerbanner-div img {
+    width: 100%;
+    height: auto;
+}
+#intro-div {
+    width: 100%;
+    min-height: 75px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 10px;
+}
+#main-div {
+    width: 100%;
+}
+#box1-div, #box2-div, #box3-div {
+    width: 30%;
+    text-align: center;
+    min-height: 250px;
+    background-color: lightgray;
+    float: left;
+    margin: 0 1.66%;
+}
+#box2-div {
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+}
+#box1-div img, #box2-div img, #box3-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer-div {
+    width: 100%;
+    min-height: 30px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+#footer-div img {
+    max-height: 100%;
+    width: auto;
+    vertical-align: middle;
+}
+</style>
+</head>
+<body>
+<div id="wrapper-div">
+    <div id="main1-div" class="clearfix">
+        <div id="logo-div">
+            <a href="https://www.mcdonalds.com" target="_blank">
+                <img src="logo.png" alt="McDonald's Logo">
+                MCDONALD'S
+            </a>
+        </div>
+        <div id="nav-div">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Family Activities</a>
+            <a href="#">McDelivery</a>
+            <a href="#">Careers</a>
+            <a href="#">Opportunities</a>
+        </div>
+    </div>
+    <div id="headerbanner-div">
+        <img src="banner.png" alt="McDonald's Picture">
+    </div>
+    <div id="intro-div">
+        <p>Welcome to McDonald's! We are the world's leading global food service retailer with over 36,000 locations in over 100 countries. We serve delicious food and create feel-good moments for everyone.</p>
+    </div>
+    <div id="main-div" class="clearfix">
+        <div id="box1-div">
+            <img src="mcdonalds1.png" alt="McDonald's Image 1">
+        </div>
+        <div id="box2-div">
+            <img src="mcdonalds2.png" alt="McDonald's Image 2">
+        </div>
+        <div id="box3-div">
+            <img src="mcdonalds3.png" alt="McDonald's Image 3">
+        </div>
+    </div>
+    <div id="footer-div">
+        <img src="https://via.placeholder.com/150" alt="McDonald's Logo">
+        <p>McDonald's, 110 N. Carpenter St., Chicago, IL 60607</p>
+    </div>
+</div>
+</body>
+</html>
